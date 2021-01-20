@@ -24,7 +24,7 @@ Vue.use(Router)
 
 const router = new Router({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: 'https://bread-it-site.herokuapp.com/',
   routes: [
     {
       path: '/',
