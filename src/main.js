@@ -23,7 +23,7 @@ Vue.config.productionTip = false
 library.add(faArrowUp, faArrowDown, faPepperHot)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-axios.defaults.baseURL = process.env.VUE_APP_REMOTE_API;
+axios.defaults.baseURL = 'https://bread-it-site.herokuapp.com/';
 
 new Vue({
   router,
